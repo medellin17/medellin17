@@ -5,6 +5,7 @@
 [![Telegram Bot](https://img.shields.io/badge/Telegram-Bots-2CA5E0?logo=telegram&logoColor=white)](#)
 [![Google Sheets](https://img.shields.io/badge/Google-Sheets-34A853?logo=googlesheets&logoColor=white)](#)
 [![MVP](https://img.shields.io/badge/Delivery-MVP%20%E2%86%92%20Product-111827?logo=github&logoColor=white)](#)
+
 I build **Telegram bots** and **websites** for small businesses — from **MVP to a ready-to-use product** (especially for small/medium scope projects).  
 I’m flexible with requirements and happy to discuss custom workflows.
 
