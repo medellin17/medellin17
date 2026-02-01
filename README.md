@@ -1,4 +1,4 @@
-# Hi, I’m medellin17 👋
+# Hi, I’m medellin17
 [![Telegram](https://img.shields.io/badge/Telegram-@medellin17-26A5E4?logo=telegram&logoColor=white)](https://t.me/medellin17)
 [![Email](https://img.shields.io/badge/Email-yeterndev%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:yeterndev@gmail.com)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](#)
