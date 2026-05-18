@@ -23,8 +23,8 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 | Project | Stack |
 |---------|-------|
-| **Prism** — All-in-one study assistant. Schedule, tasks, Notion-like notes, knowledge base, admin panel. Telegram bot + web PWA dashboard. 500+ tests, CI/CD, 150+ users | Python + FastAPI + React 18 + PostgreSQL 16 + Redis + Docker |
-| **Satella** ✧ — Telegram AI assistant with persistent memory. WAL-based memory pipeline, FTS5 search, session summarization, RAG context, cron reminders, git-versioned knowledge | Python + Telethon + opencode + SQLite FTS5 |
+| **Prism** <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/prism.png" height="18" alt=""> — All-in-one study assistant. Schedule, tasks, Notion-like notes, knowledge base, admin panel. Telegram bot + web PWA dashboard. 500+ tests, CI/CD, 150+ users | Python + FastAPI + React 18 + PostgreSQL 16 + Redis + Docker |
+| **Satella** ✧ <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/satella.jpg" height="18" alt=""> — Telegram AI assistant with persistent memory. WAL-based memory pipeline, FTS5 search, session summarization, RAG context, cron reminders, git-versioned knowledge | Python + Telethon + opencode + SQLite FTS5 |
 
 <details>
 <summary><b>All Projects</b></summary>
