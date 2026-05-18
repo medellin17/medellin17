@@ -1,6 +1,11 @@
 # Hey, I'm medellin17
 
-**Spec-Driven Engineer | Bot & Web Developer | AI Workflow Architect**
+![Spec-Driven Developer](https://img.shields.io/badge/Spec--Driven_Developer-8B5CF6?style=for-the-badge)
+![AI Agent Engineer](https://img.shields.io/badge/AI_Agent_Engineer-3B82F6?style=for-the-badge)
+![Bot Developer](https://img.shields.io/badge/Bot_Developer-22C55E?style=for-the-badge)
+![Fullstack Web](https://img.shields.io/badge/Fullstack_Web-F59E0B?style=for-the-badge)
+
+---
 
 I build production-ready Telegram bots, web apps, and AI agent systems — from spec to delivery. My approach is **Spec-Driven Development**: write the contract first, then ship working code fast. No scope creep, no guesswork.
 
@@ -8,11 +13,10 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 ## Currently Building
 
-| Project | Stack | What |
-|---------|-------|------|
-| **Satella** — Telegram AI Assistant with persistent memory | Python, Telethon, opencode, FTS5, git-backed WAL | Long-term memory, RAG context, session summarization, cron reminders, web search via Jina AI. A personal AI that remembers everything. |
-| **Prism (Schedule Bot)** — All-in-one study assistant | Python + FastAPI + React PWA + PostgreSQL 16 | Schedule, tasks, Notion-like notes, knowledge base. Telegram bot + web dashboard. 150+ users. 500+ tests. |
-| **Satella Tamagochi** — Desktop virtual pet | Rust, Macroquad | Anime-style pixel pets (Noir Webling, Kuro) with stat management, sprite animations, JSON persistence. |
+| Project | Stack |
+|---------|-------|
+| **Prism** — All-in-one study assistant (Telegram bot + Web dashboard). Schedule, tasks, Notion-like notes, knowledge base. 150+ users, 500+ tests, full CI/CD | Python + FastAPI + React 18 PWA + PostgreSQL 16 + Redis + Docker + GitHub Actions |
+| **Satella** — Telegram AI assistant with persistent memory. WAL-based memory pipeline, FTS5 search, session summarization, RAG context, cron reminders, git-versioned knowledge | Python + Telethon + opencode + SQLite FTS5 + Jinā AI |
 
 ---
 
@@ -20,50 +24,58 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 ### 🤖 Telegram Bots
 
-- **Prism (Schedule Bot)** — Schedule management, homework, Notion-like notes, knowledge base, admin panel. Telegram + web dashboard. 150+ users.
-- **Debate Bot** — AI-driven debates between LLM models via OpenRouter. ELO ratings, achievements, tournament system.
-- **Garant Bot** — P2P escrow deals with dispute resolution, reputation system, referrals. Crypto Bot integration.
-- **DreamEater** — Gamified dream journal as a Telegram Mini App. React + Supabase + Groq. PRD complete.
-- **Video Loader** — Multi-platform video downloader (YouTube, Instagram, TikTok). aiogram 3 + yt-dlp.
-- **Habit Tracker** — Track habits with reminders and streaks.
+- **Prism (Schedule Bot)** ⭐ — my largest project. Full-featured study assistant ecosystem: schedule management, homework, Notion-like note editor with drag-and-drop blocks, knowledge base, inline mode, admin panel, iCal export, PWA dashboard. Pure PostgreSQL with full-text search. 500+ tests across 4 packages.
+- **Debate Bot** — AI-driven debates between LLM models via OpenRouter. ELO ratings, achievements, tournament system. Docker Compose + PostgreSQL + Alembic.
+- **Video Loader** — Multi-platform video downloader (YouTube, Instagram, TikTok). aiogram 3 + yt-dlp. systemd deployment.
 
 ### 🌐 Web
 
-- **[Neural Core](https://neural-core-six.vercel.app)** — Brutalist creative portfolio. p5.js flow fields, Three.js 3D neural network, ASCII data visualizations, Canvas API particle system.
-- **Digital Agency Korea** — Premium editorial-style landing page. Vite + React + Tailwind + Framer Motion. Fluid typography, dark mode.
-- **Potolki (Потолочки.РУ)** — Corporate site for ceiling installation company. Next.js 15, interactive calculator, gallery, dark theme.
-- **Medellin.builds Portfolio** — Developer portfolio with admin panel. Next.js 15 + TypeScript + Tailwind.
+- **[Neural Core](https://neural-core-six.vercel.app)** — brutalist creative portfolio. 250-particle Perlin noise flow field, 3D neural lattice (React Three Fiber), ASCII data visualizations, emergent connectivity particle network, terminal boot sequence footer. The code *is* the art.
+- **Digital Agency Korea** — premium editorial-style landing page. Vite + React + Tailwind + Framer Motion. Fluid typography via `clamp()`, dark mode, asymmetric layouts, `BlackBar` signature element. 90 KB gzipped.
+- **Potolki (Потолочки.РУ)** — corporate site for a ceiling installation company. Next.js 15, interactive calculator, gallery with filtering, FAQ, contact form, dark theme.
+- **Medellin.builds Portfolio** — developer portfolio. Next.js 15 + TypeScript + Tailwind. Hero, projects, skills, contact form. SEO-optimized, responsive.
 
 ### 🧠 Agent Systems
 
-- **Satella AI Assistant** — Long-term memory Telegram agent. WAL-based memory pipeline, FTS5 search, session summarization, cron, RAG context, git-versioned knowledge.
-- **vAgents-clean** — Portable AI agent project template for Claude Code, Factory Droid, and generic agents. Rules, skills, contracts, context management, session handoff, benchmarking framework.
-- **Obsidian MCP Server** — MCP server for Obsidian Local REST API integration.
-- **Project-Systems** — Collection of spec-driven development methodologies, agent templates, and workflow systems.
+- **Satella AI Assistant** — production Telegram agent with long-term memory. WAL-based memory pipeline, FTS5 full-text search, dual-agent session summarization with quality check, cron reminders, RAG context injection, git-backed memory versioning, Docker deployment.
+- **Spec-Driven Agent Template** — portable project template for structuring AI agent workspaces (Claude Code, Factory Droid, generic). Rules, skills, contracts, context management, session handoff protocols, benchmarking framework with golden tests.
+- **Project-Systems** — collection of spec-driven development methodologies, workflow systems, and agent orchestration patterns built for production use.
 
 ### 🎨 Creative / Desktop
 
-- **Satella Tamagochi** — Desktop virtual pet in Rust/Macroquad. Two anime-style pixel pets with 9 animations each, 5 stats, age progression, death mechanic.
-- **Pass Manager** — PyQt6 desktop app with AES-256 encryption, 280+ tests.
+- **Pass Manager** — PyQt6 desktop password manager. AES-256 encryption, 280+ tests, spec-driven workflow.
+- **Satella** — manga/ranobe downloader. Parallel downloads (5-10x speedup), proxy rotation, CBZ/EPUB export, multiple sources (Remanga, Ranobelib).
+- **Presentation Slides** — designed and delivered multi-presentation slide decks with custom HTML slides, visual storytelling, and themed layouts.
 
 ### 🔧 Utilities
 
-- **Satella** — Manga/ranobe downloader. Parallel downloads, proxy rotation, CBZ/EPUB export, multiple sources (Remanga, Ranobelib).
-- **tg-to-max** — Telegram → Max messenger file relay via Telethon + GREEN-API.
+- **tg-to-max** — Telegram → Max messenger file relay. Telethon userbot listens for media, uploads via GREEN-API. Whitelist-restricted, ephemeral storage, systemd daemon.
 - **qwen-stats-tracker** — CLI usage statistics tracker.
 
 ---
 
 ## Tech Stack
 
-```
-Backend:    Python, aiogram 3, FastAPI, PostgreSQL, SQLite, Redis, Docker
-Frontend:   React, Next.js 15, TypeScript, Tailwind, Framer Motion, Vite
-Creative:   p5.js, Three.js, R3F, Canvas API, Pure CSS (brutalist)
-Desktop:    Rust (Macroquad), PyQt6
-AI Stack:   Claude Code, opencode, OpenRouter, Jina AI, Groq API
-Agent Eng:  Custom agent pipelines, spec-driven workflow, WAL memory, FTS5 RAG
-```
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?logo=python&logoColor=white&style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+
+![React](https://img.shields.io/badge/React_18-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js_15-000?logo=nextdotjs&logoColor=white&style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+
+![Rust](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=white&style=flat-square)
+![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white&style=flat-square)
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-000?logo=anthropic&logoColor=white&style=flat-square)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B6B?logo=openai&logoColor=white&style=flat-square)
+![Jinā AI](https://img.shields.io/badge/Jinā_AI-8B5CF6?logo=googlechrome&logoColor=white&style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square)
 
 ---
 
@@ -71,15 +83,15 @@ Agent Eng:  Custom agent pipelines, spec-driven workflow, WAL memory, FTS5 RAG
 
 1. **Spec first** — requirement analysis → brief → task cards before any code
 2. **Ship fast** — MVP in days, not weeks. Iterate on real feedback.
-3. **Full ownership** — from database schema to deployment (systemd/Docker/Vercel)
+3. **Full ownership** — from database schema to deployment (systemd / Docker / Vercel)
 4. **Test coverage** — pytest / Playwright / CI on every meaningful change
-5. **AI-assisted** — I build AI agent systems AND use them to build faster
+5. **AI-assisted** — I build AI agent systems and use them to build faster
 
 ---
 
 ## Contact
 
-- **Telegram:** [@medellin17](https://t.me/medellin17)
-- **Email:** gleb71131@gmail.com
+[![Telegram](https://img.shields.io/badge/@medellin17-26A5E4?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/medellin17)
+[![Email](https://img.shields.io/badge/gleb71131@gmail.com-EA4335?logo=gmail&logoColor=white&style=for-the-badge)](mailto:gleb71131@gmail.com)
 
 Open for commissions, collaborations, and interesting projects. If you need a bot, a landing page, or an AI agent — let's talk.
