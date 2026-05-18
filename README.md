@@ -29,31 +29,26 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 <details>
 <summary><b>All Projects</b></summary>
 
-###### 🤖 Telegram Bots
-
+#### 🤖 Telegram Bots
 - **Debate Bot** — AI debates between LLMs via OpenRouter. ELO ratings, tournaments. Docker + PostgreSQL.
 - **Video Loader** — Multi-platform video downloader (YT, Instagram, TikTok). aiogram 3 + yt-dlp. systemd.
 
-###### 🌐 Web
-
+#### 🌐 Web
 - **[Neural Core](https://neural-core-six.vercel.app)** — brutalist creative portfolio. p5.js flow fields, Three.js 3D neural net, ASCII visualizations, emergent particles.
 - **Digital Agency Korea** — premium editorial landing page. Vite + React + Tailwind + Framer Motion. Fluid typography, dark mode.
 - **Potolki** — corporate site. Next.js 15, interactive calculator, gallery, FAQ, dark theme.
 - **Medellin.builds Portfolio** — developer portfolio. Next.js 15 + TypeScript + Tailwind.
 
-###### 🧠 Agent Systems
-
+#### 🧠 Agent Systems
 - **Spec-Driven Agent Template** — portable project template for AI workspaces (Claude Code, Factory Droid, generic). Rules, skills, contracts, context management, benchmarking.
 - **Project-Systems** — methodologies, agent pipelines, and workflow systems.
 
-###### 🎨 Creative / Desktop
-
+#### 🎨 Creative / Desktop
 - **Pass Manager** — PyQt6 desktop password manager. AES-256, 280+ tests.
 - **Satella** — manga/ranobe downloader. Parallel downloads, CBZ/EPUB export.
 - **Presentation Slides** — custom HTML slide decks with visual storytelling.
 
-###### 🔧 Utilities
-
+#### 🔧 Utilities
 - **tg-to-max** — Telegram → Max relay. Telethon + GREEN-API.
 - **qwen-stats-tracker** — CLI usage statistics.
 
