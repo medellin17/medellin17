@@ -37,7 +37,7 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 ### 🧠 Agent Systems
 
-|- **Satella AI Assistant** ✧ — production Telegram agent with long-term memory. WAL-based memory pipeline, FTS5 full-text search, dual-agent session summarization with quality check, cron reminders, RAG context injection, git-backed memory versioning, Docker deployment.
+- **Satella AI Assistant** ✧ — production Telegram agent with long-term memory. WAL-based memory pipeline, FTS5 full-text search, dual-agent session summarization with quality check, cron reminders, RAG context injection, git-backed memory versioning, Docker deployment.
 - **Spec-Driven Agent Template** — portable project template for structuring AI agent workspaces (Claude Code, Factory Droid, generic). Rules, skills, contracts, context management, session handoff protocols, benchmarking framework with golden tests.
 - **Project-Systems** — collection of spec-driven development methodologies, workflow systems, and agent orchestration patterns built for production use.
 
