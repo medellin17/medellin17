@@ -50,8 +50,8 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 #### 🔧 Utilities
 - **[vk-export](https://github.com/medellin17/vk-export)** — export VK conversations to JSON & HTML. OAuth, media download, date filters.
-- **tg-to-max** — Telegram → Max relay. Telethon + GREEN-API.
-- **qwen-stats-tracker** — CLI usage statistics.
+- **[tg-to-max](https://github.com/medellin17/tg-to-max)** — Telegram → Max relay. Telethon + GREEN-API.
+- **[qwen-stats-tracker](https://github.com/medellin17/qwen-stats-tracker)** — CLI usage statistics.
 
 </details>
 
