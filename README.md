@@ -24,7 +24,7 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 | Project | Stack |
 |---------|-------|
 | **Prism** <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/prism.png" height="18" alt=""> — All-in-one study assistant. Schedule, tasks, Notion-like notes, knowledge base, admin panel. Telegram bot + web PWA dashboard. 500+ tests, CI/CD, 150+ users | Python + FastAPI + React 18 + PostgreSQL 16 + Redis + Docker |
-| **Satella** ✧ <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/satella.jpg" height="18" alt=""> — Telegram AI assistant with persistent memory. WAL-based memory pipeline, FTS5 search, session summarization, RAG context, cron reminders, git-versioned knowledge | Python + Telethon + opencode + SQLite FTS5 |
+| **Satella** ✧ <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/satella.jpg" height="18" alt=""> — Telegram AI assistant with long-term memory. WAL + FTS5 + vector embeddings + bi-encoder reranker, self-evaluation loop, sub-agents, cron consolidation, git-versioned knowledge | Python + python-telegram-bot + opencode + SQLite FTS5 + sentence-transformers + SearXNG + Docker |
 
 <details>
 <summary><b>All Projects</b></summary>
@@ -45,10 +45,10 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 
 #### 🎨 Creative / Desktop
 - **Pass Manager** — PyQt6 desktop password manager. AES-256, 280+ tests.
-- **Satella** — manga/ranobe downloader. Parallel downloads, CBZ/EPUB export.
 - **Presentation Slides** — custom HTML slide decks with visual storytelling.
 
 #### 🔧 Utilities
+- **[vk-export](https://github.com/medellin17/vk-export)** — export VK conversations to JSON & HTML. OAuth, media download, date filters.
 - **tg-to-max** — Telegram → Max relay. Telethon + GREEN-API.
 - **qwen-stats-tracker** — CLI usage statistics.
 
