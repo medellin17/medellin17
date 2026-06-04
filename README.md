@@ -30,6 +30,7 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 <summary><b>All Projects</b></summary>
 
 #### 🤖 Telegram Bots
+- **[TG Spy Bot](https://github.com/medellin17/spy-tg)** — Telegram bot with Business API message capture. aiogram 3 + SQLAlchemy + PostgreSQL + Alembic + Docker.
 - **Debate Bot** — AI debates between LLMs via OpenRouter. ELO ratings, tournaments. Docker + PostgreSQL.
 - **Video Loader** — Multi-platform video downloader (YT, Instagram, TikTok). aiogram 3 + yt-dlp. systemd.
 
