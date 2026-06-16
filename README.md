@@ -25,12 +25,14 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 |---------|-------|
 | **Prism** <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/prism.png" height="18" alt=""> — All-in-one study assistant. Schedule, tasks, Notion-like notes, knowledge base, admin panel. Telegram bot + web PWA dashboard. 500+ tests, CI/CD, 150+ users | Python + FastAPI + React 18 + PostgreSQL 16 + Redis + Docker |
 | **Satella** ✧ <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/satella.jpg" height="18" alt=""> — Telegram AI assistant with long-term memory. WAL + FTS5 + vector embeddings + bi-encoder reranker, self-evaluation loop, sub-agents, cron consolidation, git-versioned knowledge | Python + python-telegram-bot + opencode + SQLite FTS5 + sentence-transformers + SearXNG + RAG + Docker |
+| **Alma** — CLI orchestrator & memory framework for AI-driven development. Spec-driven lifecycle, Progressive Disclosure, long-term `knowledge/` memory, doc audit skills | Python + Antigravity CLI (agy) + OpenCode + Markdown |
 
 <details>
 <summary><b>All Projects</b></summary>
 
 #### 🤖 Telegram Bots
 - **[TG Spy Bot](https://github.com/medellin17/spy-tg)** — Telegram bot with Business API message capture. aiogram 3 + SQLAlchemy + PostgreSQL + Alembic + Docker.
+- **CRM Telegram Bot** — Client order intake & processing for small businesses. aiogram 3.4+ + SQLAlchemy 2.x + Google Sheets API + Alembic + SQLite.
 - **Debate Bot** — AI debates between LLMs via OpenRouter. ELO ratings, tournaments. Docker + PostgreSQL.
 - **Video Loader** — Multi-platform video downloader (YT, Instagram, TikTok). aiogram 3 + yt-dlp. systemd.
 
@@ -38,15 +40,17 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 - **[Neural Core](https://neural-core-six.vercel.app)** — brutalist creative portfolio. p5.js flow fields, Three.js 3D neural net, ASCII visualizations, emergent particles.
 - **Digital Agency Korea** — premium editorial landing page. Vite + React + Tailwind + Framer Motion. Fluid typography, dark mode.
 - **Potolki** — corporate site. Next.js 15, interactive calculator, gallery, FAQ, dark theme.
-- **Medellin.builds Portfolio** — developer portfolio. Next.js 15 + TypeScript + Tailwind.
+- **Medellin.builds Portfolio** — developer portfolio. Next.js 15 + TypeScript + Tailwind + Framer Motion. Bilingual EN/RU, magnetic cursor, grain overlay.
 
 #### 🧠 Agent Systems
+- **Alma** — CLI orchestrator & memory framework for AI-driven development. Spec-driven lifecycle, Progressive Disclosure, long-term `knowledge/` memory, doc audit skills.
+- **Satella Orchestrator** *(experimental / on hold)* — local Python multi-agent orchestrator. Decomposes tasks into a JSON DAG, runs isolated workspaces with `opencode serve`, QA double-loop, auto merge-conflict resolution, token budget tracker.
 - **Spec-Driven Agent Template** — portable project template for AI workspaces (Claude Code, Factory Droid, generic). Rules, skills, contracts, context management, benchmarking.
 - **Project-Systems** — methodologies, agent pipelines, and workflow systems.
 
 #### 🎨 Creative / Desktop
 - **Pass Manager** — PyQt6 desktop password manager. AES-256, 280+ tests.
-- **Satella** — manga/ranobe downloader. Parallel downloads, CBZ/EPUB export.
+- **satella-manga** — manga/ranobe downloader. Parallel downloads, CBZ/EPUB export, proxy rotation, Qwen Code CLI integration.
 - **Presentation Slides** — custom HTML slide decks with visual storytelling.
 
 #### 🔧 Utilities
