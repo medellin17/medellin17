@@ -72,6 +72,12 @@ I build production-ready Telegram bots, web apps, and AI agent systems — from 
 ---
 
 <p align="center">
+  <img src="https://devquest-mu.vercel.app/card/medellin17.svg?template=heatmap&theme=matrix&style=terminal" alt="Contribution Heatmap">
+</p>
+
+---
+
+<p align="center">
   <a href="https://t.me/medellin17"><img src="https://img.shields.io/badge/@medellin17-26A5E4?logo=telegram&logoColor=white&style=for-the-badge"></a>
   <a href="mailto:gleb71131@gmail.com"><img src="https://img.shields.io/badge/gleb71131@gmail.com-EA4335?logo=gmail&logoColor=white&style=for-the-badge"></a>
 </p>
