@@ -1,85 +1,21 @@
-```
-                       __     _____      ________
-   ____ ___  ___  ____/ /__  / / (_)___ <  /__  /
-  / __ `__ \/ _ \/ __  / _ \/ / / / __ \/ /  / /
- / / / / / /  __/ /_/ /  __/ / / / / / / /  / /
-/_/ /_/ /_/\___/\__,_/\___/_/_/_/_/ /_/_/  /_/
-```
+### 👋 Hi, I'm Gleb — `medellin17`
+
+Vibe coder building Telegram bots, web apps, and automation scripts.  
+My daily workflow is powered by **OpenCode**.
+
+<pre>
+🔮 <b>Prism:</b> All-in-one study assistant (Telegram + Web) • <b>650+ active users</b>
+🧪 <b>In the lab:</b> satella2 — personal vibecoding harness & AI assistant with long-term memory
+⌨️ <b>Daily driver:</b> OpenCode
+🛠️ <b>Stack:</b> Python • React • PostgreSQL • Docker
+⚡ <b>Output:</b> Telegram bots • Web apps • Automation scripts & utilities
+</pre>
 
 <p align="center">
-  <a href="https://t.me/medellin17"><img src="https://img.shields.io/badge/@medellin17-26A5E4?logo=telegram&logoColor=white&style=flat-square"></a>
-  <a href="mailto:gleb71131@gmail.com"><img src="https://img.shields.io/badge/gleb71131@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
-  <img src="https://img.shields.io/badge/Spec--Driven_Developer-8B5CF6?style=flat-square">
-  <img src="https://img.shields.io/badge/AI_Agent_Engineer-3B82F6?style=flat-square">
-  <img src="https://img.shields.io/badge/Bot_Developer-22C55E?style=flat-square">
-  <img src="https://img.shields.io/badge/Fullstack_Web-F59E0B?style=flat-square">
+  <img src="https://devquest-mu.vercel.app/card/medellin17.svg?template=heatmap&theme=matrix&style=terminal" alt="Activity Heatmap">
 </p>
-
-I build production-ready Telegram bots, web apps, and AI agent systems — from spec to delivery. Write the contract first, ship working code fast.
-
----
-
-### Latest
-
-| Project | Stack |
-|---------|-------|
-| **Prism** <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/prism.png" height="18" alt=""> — All-in-one study assistant. Schedule, tasks, Notion-like notes, knowledge base, admin panel. Telegram bot + web PWA dashboard. 500+ tests, CI/CD, 150+ users | Python + FastAPI + React 18 + PostgreSQL 16 + Redis + Docker |
-| **Satella** ✧ <img src="https://raw.githubusercontent.com/medellin17/medellin17/main/assets/satella.jpg" height="18" alt=""> — Telegram AI assistant with long-term memory. WAL + FTS5 + vector embeddings + bi-encoder reranker, self-evaluation loop, sub-agents, cron consolidation, git-versioned knowledge | Python + python-telegram-bot + opencode + SQLite FTS5 + sentence-transformers + SearXNG + RAG + Docker |
-| **Deus** — Multi-agent orchestrator for OpenCode with Knowledge Base, DAG engine, and auto-scaling | Python + TypeScript + OpenCode + RAG |
-
-<details>
-<summary><b>All Projects</b></summary>
-
-#### 🤖 Telegram Bots
-- **[TG Spy Bot](https://github.com/medellin17/spy-tg)** — Telegram bot with Business API message capture. aiogram 3 + SQLAlchemy + PostgreSQL + Alembic + Docker.
-- **CRM Telegram Bot** — Client order intake & processing for small businesses. aiogram 3.4+ + SQLAlchemy 2.x + Google Sheets API + Alembic + SQLite.
-- **Debate Bot** — AI debates between LLMs via OpenRouter. ELO ratings, tournaments. Docker + PostgreSQL.
-- **Video Loader** — Multi-platform video downloader (YT, Instagram, TikTok). aiogram 3 + yt-dlp. systemd.
-
-#### 🌐 Web
-- **[Neural Core](https://neural-core-six.vercel.app)** — brutalist creative portfolio. p5.js flow fields, Three.js 3D neural net, ASCII visualizations, emergent particles.
-- **Digital Agency Korea** — premium editorial landing page. Vite + React + Tailwind + Framer Motion. Fluid typography, dark mode.
-- **Potolki** — corporate site. Next.js 15, interactive calculator, gallery, FAQ, dark theme.
-- **Medellin.builds Portfolio** — developer portfolio. Next.js 15 + TypeScript + Tailwind + Framer Motion. Bilingual EN/RU, magnetic cursor, grain overlay.
-
-#### 🧠 Agent Systems
-- **Satella Orchestrator** *(experimental / on hold)* — local Python multi-agent orchestrator. Decomposes tasks into a JSON DAG, runs isolated workspaces with `opencode serve`, QA double-loop, auto merge-conflict resolution, token budget tracker.
-- **Spec-Driven Agent Template** — portable project template for AI workspaces (Claude Code, Factory Droid, generic). Rules, skills, contracts, context management, benchmarking.
-- **Project-Systems** — methodologies, agent pipelines, and workflow systems.
-
-#### 🎨 Creative / Desktop
-- **Pass Manager** — PyQt6 desktop password manager. AES-256, 280+ tests.
-- **satella-manga** — manga/ranobe downloader. Parallel downloads, CBZ/EPUB export, proxy rotation, Qwen Code CLI integration.
-- **Presentation Slides** — custom HTML slide decks with visual storytelling.
-
-#### 🔧 Utilities
-- **[vk-export](https://github.com/medellin17/vk-export)** — export VK conversations to JSON & HTML. OAuth, media download, date filters.
-- **[tg-to-max](https://github.com/medellin17/tg-to-max)** — Telegram → Max relay. Telethon + GREEN-API.
-- **[qwen-stats-tracker](https://github.com/medellin17/qwen-stats-tracker)** — CLI usage statistics.
-
-</details>
-
----
-
-### Tech Stack
-
-<img src="https://img.shields.io/badge/Python_3.11-3776AB?logo=python&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?logo=postgresql&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square">
-
-<img src="https://img.shields.io/badge/React_18-61DAFB?logo=react&logoColor=black&style=flat-square"> <img src="https://img.shields.io/badge/Next.js_15-000?logo=nextdotjs&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square">
-
-<img src="https://img.shields.io/badge/Rust-000?logo=rust&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/Claude_Code-000?logo=anthropic&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/OpenRouter-FF6B6B?logo=openai&logoColor=white&style=flat-square"> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square">
-
----
 
 <p align="center">
-  <img src="https://devquest-mu.vercel.app/card/medellin17.svg?template=heatmap&theme=matrix&style=terminal" alt="Contribution Heatmap">
+  <a href="https://t.me/medellin17"><img src="https://img.shields.io/badge/Telegram-@medellin17-26A5E4?logo=telegram&logoColor=white&style=flat-square"></a>
+  <a href="mailto:gleb71131@gmail.com"><img src="https://img.shields.io/badge/Email-gleb71131@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square"></a>
 </p>
-
----
-
-<p align="center">
-  <a href="https://t.me/medellin17"><img src="https://img.shields.io/badge/@medellin17-26A5E4?logo=telegram&logoColor=white&style=for-the-badge"></a>
-  <a href="mailto:gleb71131@gmail.com"><img src="https://img.shields.io/badge/gleb71131@gmail.com-EA4335?logo=gmail&logoColor=white&style=for-the-badge"></a>
-</p>
-
-<p align="center"><i>If you need a bot, a landing page, or an AI agent — let's talk.</i></p>
