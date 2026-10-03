@@ -11,8 +11,19 @@ My daily workflow is powered by **OpenCode**.
 ⚡ <b>Output:</b> Telegram bots • Web apps • Automation scripts & utilities
 </pre>
 
+<!-- Вариант 1: Классический Heatmap в стиле Matrix (ghchart) -->
 <p align="center">
-  <img src="https://devquest-mu.vercel.app/card/medellin17.svg?template=heatmap&theme=matrix&style=terminal" alt="Activity Heatmap">
+  <img src="https://ghchart.rshah.org/00ff00/medellin17" alt="medellin17's Github Chart" />
+</p>
+
+<!-- Вариант 2: GitHub Streak Stats в стиле Matrix -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=medellin17&theme=matrix" alt="GitHub Streak" />
+</p>
+
+<!-- Вариант 3: GitHub Readme Stats (общая статистика с иконками) -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=medellin17&show_icons=true&theme=dark" alt="GitHub Stats" />
 </p>
 
 <p align="center">
